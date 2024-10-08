@@ -1,0 +1,108 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Color de fondo suave */
+    color: #333; /* Color de texto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco para el contenido */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Estilos de encabezado */
+h1, h2, h3 {
+    color: #0056b3; /* Azul corporativo */
+}
+
+/* Estilo de formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+input[type="submit"] {
+    background-color: #0056b3; /* Azul corporativo */
+    color: #fff; /* Texto blanco */
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+input[type="submit"]:hover {
+    background-color: #004494; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilo de tabla */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Eliminar espacios entre celdas */
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd; /* Borde gris claro */
+    text-align: left;
+}
+
+th {
+    background-color: #0056b3; /* Azul corporativo */
+    color: white; /* Texto blanco */
+}
+
+/* Estilos de botones de gestión */
+button {
+    background-color: #ff6347; /* Color de botón rojo tomate */
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e55347; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilo de pie de página */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #0056b3; /* Azul corporativo */
+    color: white; /* Texto blanco */
+    position: relative; /* Para el posicionamiento */
+    bottom: 0;
+    width: 100%;
+    border-radius: 0 0 8px 8px; /* Bordes redondeados */
+}

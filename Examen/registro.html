@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Trabajo - Registro de Trabajos de Titulación</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registrar Trabajo de Titulación</h1>
+        <form id="registroTrabajoForm" onsubmit="return validateRegistroTrabajo()">
+            <label for="titulo">Título:</label>
+            <input type="text" id="titulo" required>
+
+            <label for="resumen">Resumen:</label>
+            <textarea id="resumen" required></textarea>
+
+            <label for="director">Director de Tesis:</label>
+            <input type="text" id="director" required>
+
+            <button type="submit">Registrar Trabajo</button>
+        </form>
+        <p><a href="listado.html">Ver Listado de Trabajos</a></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
